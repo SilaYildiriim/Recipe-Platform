@@ -1,0 +1,51 @@
+.card {
+  background-color: #e9dac1;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: flex-start;
+  align-content: flex-start;
+  border-radius: 10px;
+  img {
+    position: absolute;
+    border-radius: 50%;
+    top: -50px;
+    left: 260px;
+    width: 160px;
+  }
+  &-body {
+    margin: 20px;
+  }
+  .card-body {
+    margin-top: 110px;
+    h3 {
+      position: absolute;
+      top: 40px;
+      left: 50px;
+      color: #0c2d57;
+    }
+  }
+  &:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    img {
+      animation: turn 2s forwards alternate infinite;
+    }
+    .card-body p {
+      transform: scale(1.03);
+    }
+    .card-body h3 {
+      transform: scale(1.08);
+    }
+  }
+}
+
+@keyframes turn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}
