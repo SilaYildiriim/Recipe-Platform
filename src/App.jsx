@@ -9,11 +9,19 @@ import { useState } from "react";
 function App() {
   const [recipes, setRecipe] = useState(fakeRecipes);
 
+  const yemekEkle = (yeniYemek) => {
+    setRecipe((prev) => [...prev, yeniYemek]);
+  };
+
+  const yemekSil = (id) => {
+    setRecipe((prev) => prev.filter((deleted) => deleted.id !== id));
+  };
+
   return (
     <>
       <Navi />
-      <Diger />
-      <CardList recipes={recipes} />
+      <Diger yemekEkle={yemekEkle} recipes={recipes} />
+      <CardList recipes={recipes} yemekSil={yemekSil} />
       <Footer />
     </>
   );

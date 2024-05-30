@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 
-const Form = () => {
+const Form = ({ yemekEkle, recipes }) => {
   const [title, setTitle] = useState("");
   const [image, setImage] = useState("");
   const [description, setDescription] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    yemekEkle({
+      id: recipes[recipes.length - 1].id + 1,
+      title: title,
+      image: image,
+      description: description,
+    });
 
     setTitle("");
     setImage("");
