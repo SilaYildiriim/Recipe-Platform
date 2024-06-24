@@ -14,6 +14,27 @@
     left: 260px;
     width: 160px;
   }
+  button {
+    position: absolute;
+    top: 15px;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 1px;
+    padding: 5px;
+    background-color: #79b4b7;
+    color: #0c2d57;
+    &:hover {
+      transform: scale(1.03);
+      color: #fff2d7;
+    }
+  }
+  .delete {
+    left: 15px;
+  }
+  .update {
+    left: 75px;
+  }
+
   &-body {
     margin: 20px;
   }
@@ -21,7 +42,7 @@
     margin-top: 110px;
     h3 {
       position: absolute;
-      top: 40px;
+      top: 50px;
       left: 50px;
       color: #0c2d57;
     }
@@ -38,6 +59,37 @@
     .card-body h3 {
       transform: scale(1.08);
     }
+  }
+}
+.updateform {
+  display: block;
+  height: 180px;
+  padding-left: 35px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin: 0;
+  p {
+    font-size: 15px;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 3px;
+    color: #0c2d57;
+  }
+  input {
+    width: 330px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff9ec;
+
+    padding-left: 15px;
+  }
+
+  .formUpdate {
+    left: 13px;
+  }
+  .formCancel {
+    left: 77px;
   }
 }
 

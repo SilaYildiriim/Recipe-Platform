@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import Card from "./Card";
 import "../assets/style/CardList.scss";
+import { DataContext } from "../context/DataContext";
 
-const CardList = ({ recipes, yemekSil }) => {
+const CardList = () => {
+  const { recipes, isLoading } = useContext(DataContext);
   return (
     <div className="card-list">
+      {isLoading.read && <p>Loading</p>}
       {recipes.map((recipe) => (
-        <Card key={recipe.id} {...recipe} yemekSil={yemekSil} />
+        <Card key={recipe.id} {...recipe} />
       ))}
     </div>
   );
