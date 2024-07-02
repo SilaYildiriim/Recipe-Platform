@@ -15,7 +15,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/eabc4300-eb7d-4dc7-b489-1a7f5d1dea2b"  />
+  <img height="350" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/eabc4300-eb7d-4dc7-b489-1a7f5d1dea2b"  />
 </div>
 
 ###
@@ -25,7 +25,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/349d490b-396a-4894-8dfa-47cfe3fb5dc9"  />
+  <img height="350" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/349d490b-396a-4894-8dfa-47cfe3fb5dc9"  />
 </div>
 
 ###
@@ -35,7 +35,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/01b3ad7f-448a-47ad-ab77-1a5782422a32"  />
+  <img height="350" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/01b3ad7f-448a-47ad-ab77-1a5782422a32"  />
 </div>
 
 ###
@@ -45,7 +45,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/3ee0440c-e0fd-421e-84ab-81380a5e715a"  />
+  <img height="350" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/3ee0440c-e0fd-421e-84ab-81380a5e715a"  />
 </div>
 
 ###
@@ -55,7 +55,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/97b1d325-f6c7-4243-847a-c83a707e382b"  />
+  <img height="350" src="https://github.com/SilaYildiriim/Recipe-Platform/assets/113769565/97b1d325-f6c7-4243-847a-c83a707e382b"  />
 </div>
 
 ###
